@@ -1,0 +1,184 @@
+// ------------------------- Color Variables
+$grape: #573266;
+$info: #404890;
+$success: #2a5926;
+$warning: #dacb4b;
+$danger: #912929;
+
+$link: #0032ed;
+
+$dark: #454545;
+
+$light: #eeeeee;
+$lighter: #f9f9f9f9;
+$lightest: white;
+
+
+// ------------------------- Global Styling
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    color: $dark;
+    overflow: hidden;
+}
+
+
+// ------------------------- Document Root
+html {overflow: auto;}
+
+
+// ------------------------- Sectioning Root
+body {background-color: $lighter;}
+
+
+// ------------------------- Content Sectioning
+// TODO: address {}
+// TODO: article {}
+// TODO: aside {}
+// TODO: footer {}
+h1, h2 {padding: 1rem;}
+// TODO: h3, h4, h5, h6 {}
+main {
+    max-width: 700px;
+    margin: auto;
+}
+// TODO: section {}
+
+
+// ------------------------- Text Content
+// TODO: blockquote {}
+// TODO: td {}
+section {padding: 1rem;}
+// TODO: dl {}
+// TODO: dt {}
+// TODO: figcaption {}
+// TODO: figure {}
+// TODO: hr {}
+// TODO: li {}
+// TODO: menu {}
+// TODO: ol {}
+// TODO: p {}
+// TODO: pre {}
+// TODO: ul {}
+
+
+// ------------------------- Inline Text Semantics
+// TODO: abbr{}
+b {font-weight: bold;}
+// TODO: bdi {}
+// TODO: bdo {}
+// TODO: br {}
+// TODO: cite {}
+// TODO: code {}
+// TODO: data {}
+// TODO: dfn {}
+// TODO: em {}
+// TODO: i {}
+// TODO: kbd {}
+// TODO: mark {}
+// TODO: q {}
+// TODO: rp {}
+// TODO: rt {}
+// TODO: ruby {}
+// TODO: s {}
+// TODO: samp {}
+// TODO: small {}
+// TODO: span {}
+// TODO: strong {}
+// TODO: sub {}
+// TODO: sup {}
+// TODO: time {}
+// TODO: u {}
+// TODO: var {}
+// TODO: wbr {}
+
+
+// ------------------------- Image and Multimedia
+// TODO: area {}
+// TODO: audio {}
+// TODO: img {}
+// TODO: map {}
+// TODO: track {}
+// TODO: video {}
+
+
+// ------------------------- Embedded Content
+// TODO: embed {}
+// TODO: iframe {}
+// TODO: object {}
+// TODO: picture {}
+// TODO: portal {}
+// TODO: source {}
+
+
+// ------------------------- Table Content
+// TODO: caption {}
+// TODO: col {}
+// TODO: colgroup {}
+// TODO: table {}
+// TODO: tbody {}
+// TODO: td {}
+// TODO: tfoot {}
+// TODO: th {}
+// TODO: thead {}
+// TODO: tr {}
+
+
+// ------------------------- Forms
+button {
+    border: 2px solid $dark;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: $dark;
+    color: $light;
+    font-weight: bold;
+} button:hover {
+    color: $dark;
+    background-color: $light;
+    cursor: pointer;
+}
+// TODO: datalist {}
+// TODO: fieldset {}
+// TODO: form {}
+// TODO: input {}
+// TODO: label {}
+// TODO: legend {}
+// TODO: meter {}
+// TODO: optgroup {}
+// TODO: option {}
+// TODO: output {}
+// TODO: progress {}
+// TODO: select {}
+// TODO: textarea {}
+
+
+// ------------------------- UI Background Colors
+[data-gui-bg=grape] {background-color: $grape;}
+[data-gui-bg=info] {background-color: $info;}
+[data-gui-bg=success] {background-color: $success;}
+[data-gui-bg=warning] {background-color: $warning;}
+[data-gui-bg=danger] {background-color: $danger;}
+
+[data-gui-bg=dark] {background-color: $dark;}
+
+[data-gui-bg=light] {background-color: $light;}
+[data-gui-bg=lighter] {background-color: $lighter;}
+[data-gui-bg=lightest] {background-color: $lightest;}
+
+
+// ------------------------- UI Colors */
+[data-gui-color=grape] {color: $grape;}
+[data-gui-color=info] {color: $info;}
+[data-gui-color=success] {color: $success;}
+[data-gui-color=warning] {color: $warning;}
+[data-gui-color=danger] {color: $danger;}
+
+[data-gui-color=dark] {color: $dark;}
+
+[data-gui-color=light] {color: $light;}
+[data-gui-color=lighter] {color: $lighter;}
+[data-gui-color=lightest] {color: $lightest;}
+
+

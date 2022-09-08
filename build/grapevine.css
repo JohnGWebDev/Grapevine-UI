@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Didact Gothic", sans-serif;
+  color: #454545;
+  overflow: hidden;
+}
+
+html {
+  overflow: auto;
+}
+
+body {
+  background-color: rgba(249, 249, 249, 0.9764705882);
+}
+
+h1, h2 {
+  padding: 1rem;
+}
+
+main {
+  max-width: 700px;
+  margin: auto;
+}
+
+section {
+  padding: 1rem;
+}
+
+b {
+  font-weight: bold;
+}
+
+button {
+  border: 2px solid #454545;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #454545;
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+button:hover {
+  color: #454545;
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+[data-gui-bg=grape] {
+  background-color: #573266;
+}
+
+[data-gui-bg=info] {
+  background-color: #404890;
+}
+
+[data-gui-bg=success] {
+  background-color: #2a5926;
+}
+
+[data-gui-bg=warning] {
+  background-color: #dacb4b;
+}
+
+[data-gui-bg=danger] {
+  background-color: #912929;
+}
+
+[data-gui-bg=dark] {
+  background-color: #454545;
+}
+
+[data-gui-bg=light] {
+  background-color: #eeeeee;
+}
+
+[data-gui-bg=lighter] {
+  background-color: rgba(249, 249, 249, 0.9764705882);
+}
+
+[data-gui-bg=lightest] {
+  background-color: white;
+}
+
+[data-gui-color=grape] {
+  color: #573266;
+}
+
+[data-gui-color=info] {
+  color: #404890;
+}
+
+[data-gui-color=success] {
+  color: #2a5926;
+}
+
+[data-gui-color=warning] {
+  color: #dacb4b;
+}
+
+[data-gui-color=danger] {
+  color: #912929;
+}
+
+[data-gui-color=dark] {
+  color: #454545;
+}
+
+[data-gui-color=light] {
+  color: #eeeeee;
+}
+
+[data-gui-color=lighter] {
+  color: rgba(249, 249, 249, 0.9764705882);
+}
+
+[data-gui-color=lightest] {
+  color: white;
+}
