@@ -1,0 +1,39 @@
+header#navbar {
+  background-color: #573266;
+  display: flex;
+}
+header#navbar button.hamburger {
+  background: none;
+  border: 0;
+  padding: 1rem;
+}
+header#navbar button.hamburger span {
+  background-color: white;
+  border-radius: 2px;
+  display: block;
+  height: 3px;
+  margin-bottom: 5px;
+  position: relative;
+  transition: transform 400ms ease-in-out, height 200ms ease-in-out, width 400ms ease-in-out;
+  width: 35px;
+}
+header#navbar button.hamburger.open span {
+  width: 30px;
+}
+header#navbar button.hamburger.open span:first-of-type {
+  transform: translateY(6.5px) rotate(45deg);
+}
+header#navbar button.hamburger.open span:nth-of-type(2) {
+  height: 0;
+}
+header#navbar button.hamburger.open span:last-of-type {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+header#navbar span.title {
+  color: white;
+  flex: 1;
+  font-size: 1.25rem;
+  font-weight: normal;
+  padding: 1rem;
+  white-space: nowrap;
+}

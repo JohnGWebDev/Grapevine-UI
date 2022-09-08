@@ -1,18 +1,4 @@
-// ------------------------- Color Variables
-$grape: #573266;
-$info: #404890;
-$success: #2a5926;
-$warning: #dacb4b;
-$danger: #912929;
-
-$link: #0032ed;
-
-$dark: #454545;
-
-$light: #eeeeee;
-$lighter: #f9f9f9f9;
-$lightest: white;
-
+@use 'variables' as v;
 
 // ------------------------- Global Styling
 * {
@@ -20,7 +6,7 @@ $lightest: white;
     margin: 0;
     padding: 0;
     font-family: 'Didact Gothic', sans-serif;
-    color: $dark;
+    color: v.$dark;
     overflow: hidden;
 }
 
@@ -30,7 +16,7 @@ html {overflow: auto;}
 
 
 // ------------------------- Sectioning Root
-body {background-color: $lighter;}
+body {background-color: v.$lighter;}
 
 
 // ------------------------- Content Sectioning
@@ -128,15 +114,15 @@ b {font-weight: bold;}
 
 // ------------------------- Forms
 button {
-    border: 2px solid $dark;
+    border: 2px solid v.$dark;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: $dark;
-    color: $light;
+    background-color: v.$dark;
+    color: v.$light;
     font-weight: bold;
 } button:hover {
-    color: $dark;
-    background-color: $light;
+    color: v.$dark;
+    background-color: v.$light;
     cursor: pointer;
 }
 // TODO: datalist {}
@@ -155,30 +141,30 @@ button {
 
 
 // ------------------------- UI Background Colors
-[data-gui-bg=grape] {background-color: $grape;}
-[data-gui-bg=info] {background-color: $info;}
-[data-gui-bg=success] {background-color: $success;}
-[data-gui-bg=warning] {background-color: $warning;}
-[data-gui-bg=danger] {background-color: $danger;}
+[data-gui-bg=grape] {background-color: v.$grape;}
+[data-gui-bg=info] {background-color: v.$info;}
+[data-gui-bg=success] {background-color: v.$success;}
+[data-gui-bg=warning] {background-color: v.$warning;}
+[data-gui-bg=danger] {background-color: v.$danger;}
 
-[data-gui-bg=dark] {background-color: $dark;}
+[data-gui-bg=dark] {background-color: v.$dark;}
 
-[data-gui-bg=light] {background-color: $light;}
-[data-gui-bg=lighter] {background-color: $lighter;}
-[data-gui-bg=lightest] {background-color: $lightest;}
+[data-gui-bg=light] {background-color: v.$light;}
+[data-gui-bg=lighter] {background-color: v.$lighter;}
+[data-gui-bg=lightest] {background-color: v.$lightest;}
 
 
 // ------------------------- UI Colors */
-[data-gui-color=grape] {color: $grape;}
-[data-gui-color=info] {color: $info;}
-[data-gui-color=success] {color: $success;}
-[data-gui-color=warning] {color: $warning;}
-[data-gui-color=danger] {color: $danger;}
+[data-gui-color=grape] {color: v.$grape;}
+[data-gui-color=info] {color: v.$info;}
+[data-gui-color=success] {color: v.$success;}
+[data-gui-color=warning] {color: v.$warning;}
+[data-gui-color=danger] {color: v.$danger;}
 
-[data-gui-color=dark] {color: $dark;}
+[data-gui-color=dark] {color: v.$dark;}
 
-[data-gui-color=light] {color: $light;}
-[data-gui-color=lighter] {color: $lighter;}
-[data-gui-color=lightest] {color: $lightest;}
+[data-gui-color=light] {color: v.$light;}
+[data-gui-color=lighter] {color: v.$lighter;}
+[data-gui-color=lightest] {color: v.$lightest;}
 
 
