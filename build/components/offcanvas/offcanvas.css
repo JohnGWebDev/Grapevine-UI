@@ -1,3 +1,4 @@
+@charset "UTF-8";
 nav[id$=offcanvas] {
   display: block;
   position: absolute;
@@ -44,18 +45,21 @@ nav[id$=offcanvas] menu.nav-elements li button.dropdown {
 nav[id$=offcanvas] menu.nav-elements li button.dropdown:hover {
   font-size: 1.2rem;
 }
+nav[id$=offcanvas] menu.nav-elements li button.dropdown::before {
+  content: " ◄";
+}
 nav[id$=offcanvas] menu.nav-elements li button.dropdown.open {
   transform: rotate(0deg);
 }
 nav[id$=offcanvas] menu.nav-elements li:hover {
   padding-left: 2rem;
 }
-nav[id$=offcanvas] menu.nav-elements ol.dropdown-elements {
+nav[id$=offcanvas] menu.nav-elements menu.dropdown-elements {
   padding-left: 1.5rem;
   max-height: 0;
   transition: max-height 500ms ease-in-out;
 }
-nav[id$=offcanvas] menu.nav-elements ol.dropdown-elements.open {
+nav[id$=offcanvas] menu.nav-elements menu.dropdown-elements.open {
   max-height: 999px;
 }
 

@@ -42,15 +42,17 @@ nav[id$=offcanvas] {
                 transition: font-size 100ms ease-in-out, transform 200ms ease-in-out;
             } button.dropdown:hover {
                 font-size: 1.2rem;
+            } button.dropdown::before {
+                content: ' \25C4';
             } button.dropdown.open {
                 transform: rotate(0deg);
             }
         } li:hover { padding-left: 2rem;}
-        ol.dropdown-elements {
+        menu.dropdown-elements {
             padding-left: 1.5rem;
             max-height: 0;
             transition: max-height 500ms ease-in-out;
-        } ol.dropdown-elements.open {
+        } menu.dropdown-elements.open {
             max-height: 999px;
         }
     }
