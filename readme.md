@@ -1,9 +1,12 @@
+<img src="logo.png" width="150" height="150">
+
 # Grapevine UI
 
 A semanticly strict, high-level UI component library.  
 Powered by [_hyperscript](https://hyperscript.org/).
 
 <br/>
+
 
 ---
 ## Install
@@ -18,7 +21,8 @@ Components are defined with the `id` attribute.
 
 <details><summary>Component List</summary><br/>
 
-* [navbar](#navbar)
+* [Navbar](#navbar)
+* [Offcanvas](#offcanvas)
 
 </details>
 
@@ -124,7 +128,7 @@ Sub-components are defined with the `class` attribute.
     </nav>
 
 #### Dropdown & Dropdown-elements
-##### sub-component
+##### Sub-component
 
 1. Must be the child of a nav-elements sub-component.
 2. Dropdown must be defined on a `button` element.
