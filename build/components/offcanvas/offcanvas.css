@@ -46,7 +46,7 @@ nav[id$=offcanvas] menu.nav-elements li button.dropdown:hover {
   font-size: 1.2rem;
 }
 nav[id$=offcanvas] menu.nav-elements li button.dropdown::before {
-  content: " ◄";
+  content: " ▼";
 }
 nav[id$=offcanvas] menu.nav-elements li button.dropdown.open {
   transform: rotate(0deg);

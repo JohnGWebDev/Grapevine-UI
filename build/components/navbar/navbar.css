@@ -6,6 +6,8 @@ header#navbar button.hamburger {
   background: none;
   border: 0;
   padding: 1rem;
+  width: 70px;
+  height: 60px;
 }
 header#navbar button.hamburger span {
   background-color: white;

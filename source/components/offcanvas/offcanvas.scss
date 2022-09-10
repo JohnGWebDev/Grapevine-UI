@@ -43,7 +43,7 @@ nav[id$=offcanvas] {
             } button.dropdown:hover {
                 font-size: 1.2rem;
             } button.dropdown::before {
-                content: ' \25C4';
+                content: ' \25BC';
             } button.dropdown.open {
                 transform: rotate(0deg);
             }
